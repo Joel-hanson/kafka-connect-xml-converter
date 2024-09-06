@@ -112,6 +112,7 @@ The **`XmlTransformation`** can be used with sink connectors to transform an inc
 
 #### Example:
 ```properties
+transforms=xmlconvert
 transforms.xmlconvert.type=com.ibm.eventstreams.kafkaconnect.plugins.xml.XmlTransformation
 transforms.xmlconvert.converter.type=value
 transforms.xmlconvert.root.element.name=order
